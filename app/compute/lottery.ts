@@ -54,7 +54,7 @@ export async function drawLottery(
 
   // 获取当前区块
   const currentBlock = await provider.getBlockNumber();
-  const futureBlockNumber = currentBlock + 10;
+  const futureBlockNumber = currentBlock + 2;
 
   // 等待目标区块
   let randomBlock = null;
